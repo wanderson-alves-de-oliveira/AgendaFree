@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/bgLista"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgLapis"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/lapis" />
+
+
+            <ImageView
+                android:id="@+id/imgLixeira"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/lixeira" />
+
+            <TextView
+                android:id="@+id/tvHorario"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                 android:text="mmm"
+                android:textSize="16sp"
+
+                />
+
+
+            <TextView
+                android:id="@+id/tvNomeAssunto"
+                android:layout_width="1dp"
+                android:layout_height="40dp"
+                android:background="@drawable/estilo"
+                android:text="TextView"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvMensagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+android:gravity="center_horizontal"
+            android:background="@drawable/estilo"
+            android:paddingLeft="10dp"
+            android:paddingTop="12dp"
+            android:text="TextView"
+            android:textSize="19sp" />
+
+        <LinearLayout
+            android:layout_width="300dp"
+
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="5dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

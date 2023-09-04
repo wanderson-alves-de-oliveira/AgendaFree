@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/l1"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAlert"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="20dp" />
+            <EditText
+                android:id="@+id/edHorario"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@drawable/estilo"
+                android:inputType="number"
+                android:digits="0123456789"
+                 android:hint="Horário"
+                />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+
+            <EditText
+                android:id="@+id/calendariopb"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@drawable/estilo"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="data" />
+
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="2dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/avisar"
+
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="Avisar " />
+
+            <EditText
+                android:id="@+id/horasAviso"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/estilo"
+                android:inputType="number" />
+
+
+            <TextView
+                android:id="@+id/minutosAntes"
+
+                android:layout_width="145dp"
+                android:layout_height="50dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="minutos antes" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/imgAltofalante"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_sons" />
+
+
+
+                <Switch
+                    android:id="@+id/switchSonOnOff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:buttonTint="#042885"
+                    android:text="" />
+            </LinearLayout>
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/edMensagem"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:background="@color/cardview_light_background"
+            android:hint="Mensagem" />
+
+
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/repetir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+
+
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio_null"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClickedRepetir"
+                    android:text="nunca"
+                    android:buttonTint="#042885"
+                    android:checked="true"
+
+                    android:textSize="10sp" />
+
+
+                <RadioButton
+                    android:id="@+id/radio_dia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="todo dia"
+                    android:buttonTint="#042885"
+
+                    android:textSize="10sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_dia_s_n"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="dia sim / dia não"
+                    android:buttonTint="#042885"
+
+                    android:textSize="10sp" />
+
+
+                <RadioButton
+                    android:id="@+id/radio_semana"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClickedRepetir"
+                    android:text="toda semana"
+                    android:buttonTint="#042885"
+
+                    android:textSize="10sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_mes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClickedRepetir"
+                    android:text="todo mês "
+                    android:buttonTint="#042885"
+
+                    android:textSize="10sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_ano"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClickedRepetir"
+                    android:text="todo ano"
+                    android:buttonTint="#042885"
+
+                    android:textSize="10sp" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/bgcolor"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="Cor de fundo do aviso"
+
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btcor1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/estilo2"
+                        android:text=" " />
+
+                    <Button
+                        android:id="@+id/btcor2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/hoje"
+                        android:text=" " />
+
+                    <Button
+                        android:id="@+id/btcor3"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/estilo5"
+                        android:text=" " />
+
+                    <Button
+                        android:id="@+id/btcor4"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/estilo6"
+                        android:text=" " />
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btcor5"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/estilo44"
+                        android:text=" " />
+
+                    <Button
+                        android:id="@+id/btcor6"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/estilo4"
+                        android:text=" " />
+
+                    <Button
+                        android:id="@+id/btcor7"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/estilo3"
+                        android:text=" " />
+
+                    <Button
+                        android:id="@+id/btcor8"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/estilo33"
+                        android:text=" " />
+
+                </LinearLayout>
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btcor9"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/estilo88"
+                        android:text=" " />
+
+                    <Button
+                        android:id="@+id/btcor10"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/estilo8"
+                        android:text=" " />
+
+                    <Button
+                        android:id="@+id/btcor11"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/estilo889"
+                        android:text=" " />
+
+                    <Button
+                        android:id="@+id/btcor12"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/estilo884"
+                        android:text=" " />
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btcor13"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/estilo9"
+                        android:text=" " />
+
+                    <Button
+                        android:id="@+id/btcor14"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/estilo91"
+                        android:text=" " />
+
+                    <Button
+                        android:id="@+id/btcor15"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/estilo92"
+                        android:text=" " />
+
+                    <Button
+                        android:id="@+id/btcor16"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/estilo93"
+                        android:text=" " />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    <Space
+            android:layout_width="20dp"
+            android:layout_height="2dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="20dp" />
+        <Button
+            android:id="@+id/btOk"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@drawable/estilo"
+            android:text="Salvar" />
+
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <Button
+            android:id="@+id/btFechar"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@drawable/estilo"
+            android:text="SAIR" />
+
+
+
+    </LinearLayout>
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="10dp" />
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

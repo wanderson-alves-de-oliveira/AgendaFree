@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="10"
+        android:background="@color/colorAlert"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAlert"
+            android:orientation="horizontal"
+
+
+            />
+
+        <Button
+            android:id="@+id/btFechar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_dialog"
+            android:textColor="@color/red" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:background="@color/colorAlert"
+            android:orientation="horizontal"
+            android:layout_gravity="right">
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="1dp"
+
+                />
+
+            <Button
+                android:id="@+id/tema1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/preto" />
+
+            <Space
+                android:layout_width="2dp"
+                android:layout_height="1dp"
+
+                />
+
+            <Button
+                android:id="@+id/tema2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/rosa" />
+            <Space
+                android:layout_width="2dp"
+                android:layout_height="1dp"
+
+                />
+
+            <Button
+                android:id="@+id/tema3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/verde" />
+            <Space
+                android:layout_width="2dp"
+                android:layout_height="1dp"
+
+                />
+
+            <Button
+                android:id="@+id/tema4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/azul" />
+            <Space
+                android:layout_width="2dp"
+                android:layout_height="1dp"
+
+                />
+
+            <Button
+                android:id="@+id/tema5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/amarelo" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="5dp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:background="@color/colorAlert"
+        android:orientation="horizontal"
+        android:layout_gravity="right">
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="1dp"
+
+            />
+
+        <Button
+            android:id="@+id/tema6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/estilo" />
+
+        <Space
+            android:layout_width="2dp"
+            android:layout_height="1dp"
+
+            />
+
+        <Button
+            android:id="@+id/tema7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/hoje" />
+        <Space
+            android:layout_width="2dp"
+            android:layout_height="1dp"
+
+            />
+
+        <Button
+            android:id="@+id/tema8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/estilo3" />
+        <Space
+            android:layout_width="2dp"
+            android:layout_height="1dp"
+
+            />
+
+        <Button
+            android:id="@+id/tema9"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/estilo4" />
+        <Space
+            android:layout_width="2dp"
+            android:layout_height="1dp"
+
+            />
+
+        <Button
+            android:id="@+id/tema10"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/estilo8" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="5dp" />
+</LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

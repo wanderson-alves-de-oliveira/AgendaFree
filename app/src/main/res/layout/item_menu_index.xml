@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/bgLista"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cor_branca"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btFechar"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@android:drawable/btn_dialog"
+                android:textColor="@color/red" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <LinearLayout
+                    android:layout_width="300dp"
+
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgLapis"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_alarme" />
+                    <TextView
+                        android:id="@+id/tvDespertador"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Despertador"
+                        android:textColor="@color/azul"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+                <LinearLayout
+                    android:layout_width="300dp"
+
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgpaisagem"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@android:drawable/ic_menu_gallery" />
+                    <TextView
+                        android:id="@+id/tvTemas"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Plano de fundo"
+                        android:textSize="20sp"
+                        android:textColor="@color/azul"
+
+                        />
+                </LinearLayout>
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+
+
+
+                <LinearLayout
+                    android:layout_width="300dp"
+
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgTrocarSon"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_sons" />
+                    <TextView
+                        android:id="@+id/tvSons"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Som do alarme"
+                        android:textSize="20sp"
+                        android:textColor="@color/azul"
+
+                        />
+                </LinearLayout>
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    >
+                    <FrameLayout
+                        android:id="@+id/fl_adplaceholder"
+                        android:layout_width="match_parent"
+                        android:layout_height="350dp"
+
+                        android:background="@color/browser_actions_bg_grey"
+
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+

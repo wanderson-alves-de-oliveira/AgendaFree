@@ -1,0 +1,215 @@
+<resources>
+
+    <!--               INGLÊS           -->
+    <string name="eg_horario">Time</string>
+    <string name="eg_mensagem">Message</string>
+    <string name="eg_avisar">Notify</string>
+    <string name="eg_minutoAntes">minute before</string>
+    <string name="eg_repetir">repeat time...</string>
+    <string name="eg_nunca">never</string>
+    <string name="eg_todoDia">everyday</string>
+    <string name="eg_diaSimDiaNao">day in / day out</string>
+    <string name="eg_todaSemana">every week</string>
+    <string name="eg_todoMes">every month</string>
+    <string name="eg_todoAno">every year</string>
+    <string name="eg_sair">Exite</string>
+    <string name="eg_salvar">Save</string>
+    <string name="eg_cores">Background color</string>
+    <string name="eg_novoAgendamento">new schedule</string>
+    <string name="eg_deletar">Delete?</string>
+    <string name="eg_sim">YES</string>
+    <string name="eg_nao">NO</string>
+    <string name="eg_natal">Christmas</string>
+    <string name="eg_anoNovo">New Year</string>
+
+    <string name="eg_titulo">Title</string>
+
+    <string name="eg_despertador">Alarm clock</string>
+    <string name="eg_papelDeParede">Wallpaper</string>
+    <string name="eg_somDoAlarme">Alarm sound</string>
+
+    <string name="eg_D">S</string>
+    <string name="eg_S">M</string>
+    <string name="eg_T">T</string>
+    <string name="eg_Q">W</string>
+    <string name="eg_QI">T</string>
+    <string name="eg_SE">F</string>
+    <string name="eg_SA">S</string>
+    <string name="eg_mostrar_notfic">For the operation of the APP it is necessary to enable the option to show notifications.</string>
+
+    <string name="eg_janeiro">January</string>
+    <string name="eg_fevereiro">February</string>
+    <string name="eg_marco">March</string>
+    <string name="eg_abril">April</string>
+    <string name="eg_maio">May</string>
+    <string name="eg_junho">June</string>
+    <string name="eg_julho">July</string>
+    <string name="eg_agosto">August</string>
+    <string name="eg_sentembro">September</string>
+    <string name="eg_outubro">October</string>
+    <string name="eg_novembro">November</string>
+    <string name="eg_dezembro">December</string>
+    <!--  ///////////////////////////////// -->
+
+
+
+    <!--               PURTUGUÊS           -->
+    <string name="pt_horario">Horário</string>
+    <string name="pt_mensagem">Mensagem</string>
+    <string name="pt_avisar">Avisar</string>
+    <string name="pt_minutoAntes">minutos antes</string>
+    <string name="pt_repetir">repetir horário...</string>
+    <string name="pt_nunca">nunca</string>
+    <string name="pt_todoDia">todo dia</string>
+    <string name="pt_diaSimDiaNao">dia sim/dia não</string>
+    <string name="pt_todaSemana">toda semana</string>
+    <string name="pt_todoMes">todo mês</string>
+    <string name="pt_todoAno">todo ano</string>
+    <string name="pt_sair">Sair</string>
+    <string name="pt_salvar">Salvar</string>
+    <string name="pt_cores">Cor de fundo</string>
+    <string name="pt_novoAgendamento">Novo agendamento</string>
+    <string name="pt_deletar">Deletar?</string>
+    <string name="pt_mostrar_notfic">Para o funcionamento do APP é preciso habilitar a opcão de Mostrar notificações.</string>
+
+    <string name="pt_sim">SIM</string>
+    <string name="pt_nao">NÃO</string>
+    <string name="pt_natal">Natal</string>
+    <string name="pt_anoNovo">Ano novo</string>
+
+    <string name="pt_titulo">Titulo</string>
+
+    <string name="pt_despertador">Despertador</string>
+    <string name="pt_papelDeParede">Papel de parede</string>
+    <string name="pt_somDoAlarme">Som do alarme</string>
+
+    <string name="pt_D">D</string>
+    <string name="pt_S">S</string>
+    <string name="pt_T">T</string>
+    <string name="pt_Q">Q</string>
+    <string name="pt_QI">Q</string>
+    <string name="pt_SE">S</string>
+    <string name="pt_SA">S</string>
+
+    <string name="pt_janeiro">Janeiro</string>
+    <string name="pt_fevereiro">Fevereiro</string>
+    <string name="pt_marco">Março</string>
+    <string name="pt_abril">Abril</string>
+    <string name="pt_maio">Maio</string>
+    <string name="pt_junho">Junho</string>
+    <string name="pt_julho">Julho</string>
+    <string name="pt_agosto">Agosto</string>
+    <string name="pt_sentembro">Setembro</string>
+    <string name="pt_outubro">Outubro</string>
+    <string name="pt_novembro">Novembro</string>
+    <string name="pt_dezembro">Dezembro</string>
+    <!--  ///////////////////////////////// -->
+
+
+
+
+    <!--               ESPANHOU           -->
+    <string name="es_horario">Hora</string>
+    <string name="es_mensagem">Mensaje</string>
+    <string name="es_avisar">Advertir</string>
+    <string name="es_minutoAntes">minutos antes</string>
+    <string name="es_repetir">repetir el tiempo ...</string>
+    <string name="es_nunca">nunca</string>
+    <string name="es_todoDia">todos los dias</string>
+    <string name="es_diaSimDiaNao">si dia/no dia</string>
+    <string name="es_todaSemana">toda la semana</string>
+    <string name="es_todoMes">cada mes</string>
+    <string name="es_todoAno">todo el año</string>
+    <string name="es_sair">Salir</string>
+    <string name="es_salvar">Ahorrar</string>
+    <string name="es_cores">Color de fondo</string>
+    <string name="es_novoAgendamento">Nuevo horario</string>
+    <string name="es_deletar">¿Borrar?</string>
+    <string name="es_sim">SÍ</string>
+    <string name="es_nao">NO</string>
+    <string name="es_natal">Navidad</string>
+    <string name="es_anoNovo">Año Nuevo</string>
+    <string name="es_mostrar_notfic">Para el funcionamiento de la APP es necesario habilitar la opción de Mostrar notificaciones.</string>
+
+    <string name="es_titulo">Título</string>
+
+    <string name="es_despertador">Despertador</string>
+    <string name="es_papelDeParede">Papel de pared</string>
+    <string name="es_somDoAlarme">Sonido de alarma</string>
+
+    <string name="es_D">D</string>
+    <string name="es_S">L</string>
+    <string name="es_T">M</string>
+    <string name="es_Q">M</string>
+    <string name="es_QI">J</string>
+    <string name="es_SE">V</string>
+    <string name="es_SA">S</string>
+
+    <string name="es_janeiro">Enero</string>
+    <string name="es_fevereiro">Febrero</string>
+    <string name="es_marco">Marzo</string>
+    <string name="es_abril">Abril</string>
+    <string name="es_maio">Mayo</string>
+    <string name="es_junho">Junio</string>
+    <string name="es_julho">Julio</string>
+    <string name="es_agosto">Agosto</string>
+    <string name="es_sentembro">Setiembre</string>
+    <string name="es_outubro">Octubre</string>
+    <string name="es_novembro">Novembre</string>
+    <string name="es_dezembro">Decembre</string>
+    <!--  ///////////////////////////////// -->
+
+
+
+    <!--               ITALIANO           -->
+    <string name="it_horario">Volta</string>
+    <string name="it_mensagem">Messaggio</string>
+    <string name="it_avisar">Avvisare</string>
+    <string name="it_minutoAntes">minuti prima</string>
+    <string name="it_repetir">ripetere il tempo...</string>
+    <string name="it_nunca">mai</string>
+    <string name="it_todoDia">tutti i giorni</string>
+    <string name="it_diaSimDiaNao">sì giorno/non giorno</string>
+    <string name="it_todaSemana">ogni settimana</string>
+    <string name="it_todoMes">ogni mese</string>
+    <string name="it_todoAno">ogni anno</string>
+    <string name="it_sair">Uscire</string>
+    <string name="it_salvar">Salvare</string>
+    <string name="it_cores">Colore di sfondo</string>
+    <string name="it_novoAgendamento">nuovo programma</string>
+    <string name="it_deletar">Eliminare?</string>
+    <string name="it_sim">SÌ</string>
+    <string name="it_nao">NO</string>
+    <string name="it_natal">Natale</string>
+    <string name="it_anoNovo">Capodanno</string>
+    <string name="it_mostrar_notfic">Per il funzionamento dell APP è necessario abilitare l opzione Mostra notifiche.</string>
+
+    <string name="it_titulo">Titolo</string>
+
+    <string name="it_despertador">Sveglia</string>
+    <string name="it_papelDeParede">Sfondo</string>
+    <string name="it_somDoAlarme">Suono di allarme</string>
+
+    <string name="it_D">D</string>
+    <string name="it_S">L</string>
+    <string name="it_T">M</string>
+    <string name="it_Q">M</string>
+    <string name="it_QI">G</string>
+    <string name="it_SE">V</string>
+    <string name="it_SA">S</string>
+
+    <string name="it_janeiro">Gennaio</string>
+    <string name="it_fevereiro">Febbraio</string>
+    <string name="it_marco">Marzo</string>
+    <string name="it_abril">Aprile</string>
+    <string name="it_maio">Maggio</string>
+    <string name="it_junho">Giugno</string>
+    <string name="it_julho">Luglio</string>
+    <string name="it_agosto">Agosto</string>
+    <string name="it_sentembro">Settembre</string>
+    <string name="it_outubro">Ottobre</string>
+    <string name="it_novembro">Novembre</string>
+    <string name="it_dezembro">Dicembre</string>
+    <!--  ///////////////////////////////// -->
+
+</resources>

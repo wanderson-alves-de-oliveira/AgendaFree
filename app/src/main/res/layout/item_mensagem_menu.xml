@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="10"
+        android:background="@color/colorAlert"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAlert"
+            android:orientation="horizontal"
+
+
+            />
+
+        <Button
+            android:id="@+id/btFechar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_dialog"
+            android:textColor="@color/red" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:background="@color/colorAlert"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <Space
+                android:layout_width="2dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+
+                />
+            <Button
+                android:id="@+id/btAdd"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@drawable/estilo"
+                android:text="Agendar"
+
+
+                />
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="1dp"
+
+                />
+
+            <Button
+                android:id="@+id/btver"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@drawable/estilo"
+                android:text="Verificar" />
+            <Space
+                android:layout_width="2dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+
+                />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="5dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

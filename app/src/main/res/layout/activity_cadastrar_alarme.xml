@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAlert"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="20dp" />
+            <EditText
+                android:id="@+id/edHorario"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:inputType="number"
+                android:digits="0123456789"
+                android:hint="Horário"
+                />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <EditText
+                android:id="@+id/edMensagem"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:hint="Titulo"
+                android:maxLength="20" />
+
+
+
+        </LinearLayout>
+
+         <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+             <Space
+                 android:layout_width="5dp"
+                 android:layout_height="10dp" />
+
+             <TextView
+                 android:id="@+id/avisar"
+                 android:layout_width="wrap_content"
+                 android:layout_height="50dp"
+                 android:focusable="false"
+                 android:hint="Avisar " />
+
+            <EditText
+                android:id="@+id/horasAviso"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:inputType="number"
+
+                />
+
+             <TextView
+                 android:id="@+id/minutosAntes"
+                 android:layout_width="145dp"
+                 android:layout_height="50dp"
+                 android:hint="minutos antes" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+    </LinearLayout>
+  <LinearLayout
+      android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="10dp" />
+
+      <TextView
+          android:id="@+id/repetir"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:onClick="onRadioButtonClicked"
+
+          android:text="Repetir horário toda..." />
+  </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="10dp" />
+            <Button
+                android:id="@+id/btDO"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/estilo"
+                android:text="D" />
+            <Button
+                android:id="@+id/btSE"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/estilo"
+                android:text="S" />
+            <Button
+                android:id="@+id/btTE"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/estilo"
+                android:text="T" />
+            <Button
+                android:id="@+id/btQA"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/estilo"
+                android:text="Q" />
+            <Button
+                android:id="@+id/btQI"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/estilo"
+                android:text="Q" />
+            <Button
+                android:id="@+id/btSX"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/estilo"
+                android:text="S" />
+            <Button
+                android:id="@+id/btSA"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/estilo"
+                android:text="S" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="5dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="20dp" />
+        <Button
+            android:id="@+id/btOk"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@drawable/estilo"
+            android:text="Salvar" />
+
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <Button
+            android:id="@+id/btFechar"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@drawable/estilo"
+            android:text="SAIR" />
+
+
+
+    </LinearLayout>
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="5dp" />
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

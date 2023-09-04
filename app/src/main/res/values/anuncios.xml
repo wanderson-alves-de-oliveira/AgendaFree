@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home">ca-app-pub-1070048556704742/4460956166</string>
+     <string name="nativo">ca-app-pub-1070048556704742/1291285426</string>
+
+    <string name="teste">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="nativoTest">ca-app-pub-3940256099942544/2247696110</string>
+
+ </resources>
