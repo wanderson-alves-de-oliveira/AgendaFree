@@ -4,16 +4,16 @@ plugins {
 
 android {
     namespace 'br.com.agenda.simonebraga'
-    compileSdk 34
+    compileSdk 35
     viewBinding {
         enabled = true
     }
     defaultConfig {
         applicationId "br.com.agenda.simonebraga"
-        minSdk 23
-        targetSdk 34
-        versionCode 49
-        versionName "1.6.1"
+        minSdk 26
+        targetSdk 35
+        versionCode 64
+        versionName "2.0.0.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
