@@ -30,8 +30,7 @@ public class TelaMenuIndex extends AppCompatDialog {
     private String data;
     private LayoutInflater li;
     private View view;
- private   FrameLayout frameLayout;
-    public TelaMenuIndex (Context context) {
+     public TelaMenuIndex (Context context) {
         super(context);
 
         li = (LayoutInflater) context.getSystemService( Context.LAYOUT_INFLATER_SERVICE );
@@ -41,7 +40,6 @@ public class TelaMenuIndex extends AppCompatDialog {
         tvTemas = view.findViewById( R.id.tvTemas );
         tvSons = view.findViewById( R.id.tvSons );
         btFechar = view.findViewById( R.id.btFechar );
-         frameLayout = view.findViewById(R.id.fl_adplaceholder);
 
         this.data=data;
         String local=  Locale.getDefault().getDisplayLanguage();
@@ -64,13 +62,7 @@ public class TelaMenuIndex extends AppCompatDialog {
 
 
 
-    public FrameLayout getFrameLayout () {
-        return frameLayout;
-    }
 
-    public void setFrameLayout (FrameLayout frameLayout) {
-        this.frameLayout = frameLayout;
-    }
 
     public TextView getTvDespertador () {
         return tvDespertador;

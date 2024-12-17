@@ -1412,7 +1412,7 @@ private  int key=0;
         if(key>0) {
             menu.enviarAlerta ().show ();
         }
-          frameLayout = menu.getFrameLayout ();
+
 
         refreshAd ();
 
